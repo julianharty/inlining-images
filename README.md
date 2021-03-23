@@ -10,6 +10,6 @@ Quick project to enable images to be inlined
 ```
 
 # Future work
-- inline non-image resources
+- ~~inline non-image resources~~
 - compress images before re-inserting them
 - ...
