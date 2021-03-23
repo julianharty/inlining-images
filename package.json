@@ -1,0 +1,23 @@
+{
+  "name": "inlining-images",
+  "version": "1.0.0",
+  "description": "Quick project to enable images to be inlined",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianharty/inlining-images.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianharty/inlining-images/issues"
+  },
+  "homepage": "https://github.com/julianharty/inlining-images#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "minimist": "^1.2.5"
+  }
+}
