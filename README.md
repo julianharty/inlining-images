@@ -13,3 +13,6 @@ Quick project to enable images to be inlined
 - ~~inline non-image resources~~
 - compress images before re-inserting them
 - ...
+
+# Use case examples
+- To enable images and css to be incorporated into jacoco code coverage reports. Microsoft's Azure DevOps disabled the images and css 3 years ago and only render the basic html which is unattractive and loses information, see https://github.com/MicrosoftDocs/azure-devops-docs/issues/1535 
