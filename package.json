@@ -1,6 +1,6 @@
 {
   "name": "inlining-images",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Quick project to enable images to be inlined",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/julianharty/inlining-images.git"
   },
-  "author": "",
+  "author": "Julian Harty",
+  "contributors": "Joseph Reeve",
   "license": "ISC",
+  "bin": {
+    "inline-images": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/julianharty/inlining-images/issues"
   },

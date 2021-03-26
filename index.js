@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const argv = require('minimist')(process.argv.slice(2));
 const path = require('path');
 const fs = require('fs');
@@ -63,8 +65,18 @@ for (const $script of scriptEls.toArray()) {
 
 const finalOutHtml = $.html();
 console.info(`Final output length [${finalOutHtml.length}]`);
-const htmlOutPath = './out.html';
-const outPath = path.join(__dirname, htmlOutPath);
+
+
+
+const destinationFilePath = argv.destination;
+var outPath
+if (!destinationFilePath) {
+    const htmlOutPath = path.basename(htmlFilePath);
+     outPath = path.join(__dirname, htmlOutPath);
+} else {
+     outPath = path.resolve(__dirname, destinationFilePath);
+}
+
 console.info(`Writing to [${outPath}]`);
 fs.writeFileSync(outPath, finalOutHtml, 'utf-8');
 
