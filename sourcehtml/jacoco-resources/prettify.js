@@ -833,7 +833,6 @@ window['_pr_isIE6'] = function () {
     })();
 
     var nPatterns = fallthroughStylePatterns.length;
-    var notWs = /\S/;
 
     /**
      * Lexes job.source and produces an output array job.decorations of style

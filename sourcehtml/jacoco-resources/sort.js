@@ -38,7 +38,7 @@
         if (header) {
           sortColumn(header, false);
         }
-        return
+        return;
       }
     }
   }
@@ -63,6 +63,7 @@
 
     var rows = body.rows;
     var sortedrows = [];
+    var r;
     for (var i = 0; i < rows.length; i++) {
       r = rows[i];
       sortedrows[parseInt(r.childNodes[colidx].id.slice(1))] = r;
@@ -92,7 +93,7 @@
    */
   function setHash(hash) {
     window.document.location.hash = hash;
-    ids = window.linkelementids;
+    var ids = window.linkelementids;
     for (var i = 0; i < ids.length; i++) {
         setHashOnAllLinks(document.getElementById(ids[i]), hash);
     }
@@ -102,7 +103,7 @@
    * Extend all links within the given tag with the given hash.
    */
   function setHashOnAllLinks(tag, hash) {
-    links = tag.getElementsByTagName("a");
+    var links = tag.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
         var a = links[i];
         var href = a.href;

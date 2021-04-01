@@ -69,7 +69,7 @@ console.info(`Final output length [${finalOutHtml.length}]`);
 
 
 const destinationFilePath = argv.destination;
-var outPath
+var outPath;
 if (!destinationFilePath) {
     const htmlOutPath = path.basename(htmlFilePath);
      outPath = path.join(__dirname, htmlOutPath);
