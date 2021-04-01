@@ -35,4 +35,5 @@ npx inlining-images   --file=/full/path/to/source/html/file.html  --destination=
 - To enable images and css to be incorporated into jacoco code coverage reports. Microsoft's Azure DevOps disabled the images and css 3 years ago and only render the basic html which is unattractive and loses information, see https://github.com/MicrosoftDocs/azure-devops-docs/issues/1535 
 
 # Special thanks to
-- How to make a beautiful, tiny npm package and publish it https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/ which provided the guidelines to help me package the code and deploy it.
+- [How to make a beautiful, tiny npm package and publish it](https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/) which provided the guidelines to help me package the code and deploy it.
+- A guide to creating a NodeJS command-line package [A guide to creating a NodeJS command-line package](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e) which provides another very helpful guide to the end to end process.
