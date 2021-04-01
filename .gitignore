@@ -103,5 +103,7 @@ dist
 # TernJS port file
 .tern-port
 
-
+# Various files used when testing and developing the utility.
 out.html
+destination.html
+temp/

@@ -24,6 +24,17 @@
             ],
             "args": ["--file=sourcehtml/index.html", "--destination=./destination.html"],
             "program": "${workspaceFolder}/index.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "in-situ replacements",
+            "preLaunchTask": "createTargetFolder",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "args": ["--inlineall=temphtmlfolder/"],
+            "program": "${workspaceFolder}/index.js"
         }
 
     ]
