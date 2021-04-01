@@ -4,6 +4,7 @@ const argv = require('minimist')(process.argv.slice(2));
 const path = require('path');
 const fs = require('fs');
 const cheerio = require('cheerio');
+const lib = require('./recursivelyFindByExtension');
 
 const htmlFilePath = argv.file;
 const inSituFileFolder = argv.inlineall;
@@ -29,7 +30,14 @@ if (htmlFilePath) {
     fs.writeFileSync(outPath, finalOutHtml, 'utf-8');
 } else {
     // Process folder in-situ
-    console.info(`Oops: not implemented in-situ yet`);
+    var htmlFiles = lib.recFindByExt(inSituFileFolder,"html"); 
+    var outFile;
+    for (var i in htmlFiles) {
+        var inlinedHtml = processFile(htmlFiles[i]);
+        outFile = path.resolve(__dirname, htmlFiles[i]);
+        console.info(`Writing to [${outFile}]`);
+        fs.writeFileSync(outFile, inlinedHtml, 'utf-8');
+    }
 }
 
 
