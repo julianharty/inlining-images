@@ -1,5 +1,6 @@
 # inlining-images
 Quick project to enable images to be inlined
+[![NPM](https://nodei.co/npm/inlining-images.png)](https://npmjs.org/package/inlining-images)
 
 [![install size](https://packagephobia.com/badge?p=inlining-images)](https://packagephobia.com/result?p=inlining-images)
 
@@ -25,6 +26,14 @@ Here's an example of the syntax when running the command using npx (which allows
 ```
 npx inlining-images   --file=/full/path/to/source/html/file.html  --destination=/full/path/to/destination/html/file.html
 ```
+
+Install the npm package 
+https://www.npmjs.com/package/inlining-images
+
+```
+npm install inlining-images
+```
+
 
 # Future work
 - ~~inline non-image resources~~
