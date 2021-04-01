@@ -2,7 +2,7 @@
 Quick project to enable images to be inlined
 
 [![NPM](https://nodei.co/npm/inlining-images.png)](https://npmjs.org/package/inlining-images)
-
+![npm](https://img.shields.io/npm/v/inlining-images.svg)
 [![install size](https://packagephobia.com/badge?p=inlining-images)](https://packagephobia.com/result?p=inlining-images)
 
 # Setup & Run
