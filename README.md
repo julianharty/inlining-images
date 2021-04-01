@@ -1,5 +1,6 @@
 # inlining-images
 Quick project to enable images to be inlined
+
 [![NPM](https://nodei.co/npm/inlining-images.png)](https://npmjs.org/package/inlining-images)
 
 [![install size](https://packagephobia.com/badge?p=inlining-images)](https://packagephobia.com/result?p=inlining-images)
