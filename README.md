@@ -36,4 +36,4 @@ npx inlining-images   --file=/full/path/to/source/html/file.html  --destination=
 
 # Special thanks to
 - [How to make a beautiful, tiny npm package and publish it](https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/) which provided the guidelines to help me package the code and deploy it.
-- A guide to creating a NodeJS command-line package [A guide to creating a NodeJS command-line package](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e) which provides another very helpful guide to the end to end process.
+- [A guide to creating a NodeJS command-line package](https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e) which provides another very helpful guide to the end to end process.
